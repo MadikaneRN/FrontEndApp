@@ -10,9 +10,9 @@ public class ClientFactory {
     public static Client getClient(String idNo, String name, String surName)
     {
         Client myClient = new Client.Builder()
-                .idNo(idNo)
+                .idno(idNo)
                 .name(name)
-                .surName(surName)
+                .surname(surName)
                 .build();
 
         return myClient;
